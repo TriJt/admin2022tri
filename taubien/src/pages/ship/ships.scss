@@ -1,0 +1,29 @@
+.ships{ 
+    display: flex;
+    width: 100%;
+    .shipsContainer{ 
+        flex:6;
+        
+        .titleTable{ 
+            text-align: center;
+            padding-top: 20px ;
+            font-weight: 600;
+            justify-content: center;
+            gap:20; 
+            font-size: 24px;
+        }
+       
+        .button{ 
+            display: flex;
+            position: relative;
+            text-align: center;
+            background-color: green;
+            color: white;
+            justify-content: center;
+            gap: 3;
+            margin-left: 40px;
+            margin-top: 40px;
+
+        }
+    }
+}
